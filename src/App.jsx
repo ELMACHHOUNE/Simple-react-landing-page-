@@ -1,14 +1,10 @@
-import Footer from "./components/Footer";
-import Main from "./components/Main";
-import Navbar from "./components/Navbar";
+import BackgroundBoxes from "./components/BackgroundBoxes";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Main />
-      <Footer />
-    </>
+    <BackgroundBoxes>
+      <main className="py-10 px-6"></main>
+    </BackgroundBoxes>
   );
 }
 
