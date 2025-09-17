@@ -26,7 +26,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center md:text-left"
+          className="order-2 md:order-1 text-center md:text-left"
         >
           <p className="text-[#D6F7FC] font-medium">Hello, I’m</p>
           <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight">
@@ -106,7 +106,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="relative"
+          className="order-1 md:order-2 relative"
         >
           <motion.div
             whileHover={{ rotate: -2, scale: 1.02 }}

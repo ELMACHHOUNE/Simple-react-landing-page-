@@ -6,9 +6,13 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <BackgroundBoxes>
-      <Navbar />
-      <Hero />
-      <Footer />
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
+        <main className="flex-1">
+          <Hero />
+        </main>
+        <Footer />
+      </div>
     </BackgroundBoxes>
   );
 }

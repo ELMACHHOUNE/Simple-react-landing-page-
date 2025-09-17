@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="fixed inset-x-0 bottom-0 z-50 border-t border-slate-800/70 bg-slate-950/90 backdrop-blur supports-[backdrop-filter]:bg-slate-950/70 text-slate-300"
+      className="border-t border-slate-800/70 bg-slate-950/90 backdrop-blur supports-[backdrop-filter]:bg-slate-950/70 text-slate-300"
       aria-labelledby="footer-heading"
     >
       <div className="mx-auto max-w-7xl px-6 py-4">
