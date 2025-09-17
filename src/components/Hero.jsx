@@ -28,9 +28,9 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="text-center md:text-left"
         >
-          <p className="text-teal-300/90 font-medium">Hello, I’m</p>
+          <p className="text-[#D6F7FC] font-medium">Hello, I’m</p>
           <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold leading-tight">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 via-fuchsia-400 to-rose-400">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 via-[#223460] to-[#93A7CA]">
               Mohamed EL MACHHOUNE
             </span>
           </h1>
