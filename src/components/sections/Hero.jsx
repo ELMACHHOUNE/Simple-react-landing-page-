@@ -1,4 +1,4 @@
-import { SparklesCore } from "../components/ui/sparkles";
+import { SparklesCore } from "../ui/sparkles";
 import { motion } from "motion/react";
 
 export default function Hero() {

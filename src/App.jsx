@@ -1,7 +1,8 @@
 import BackgroundBoxes from "./components/BackgroundBoxes";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Footer from "./components/sections/Footer";
+import Navbar from "./components/sections/Navbar";
+import Hero from "./components/sections/Hero";
+import SkillsWithTooltip from "./components/sections/SkillsWithTooltip";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         <Navbar />
         <main className="flex-1">
           <Hero />
+
+          <SkillsWithTooltip />
         </main>
         <Footer />
       </div>
