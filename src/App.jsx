@@ -3,6 +3,7 @@ import Footer from "./components/sections/Footer";
 import Navbar from "./components/sections/Navbar";
 import Hero from "./components/sections/Hero";
 import SkillsWithTooltip from "./components/sections/SkillsWithTooltip";
+import StickyScrollRevealDemo from "./components/sections/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Hero />
 
           <SkillsWithTooltip />
+          <StickyScrollRevealDemo />
         </main>
         <Footer />
       </div>
